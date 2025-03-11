@@ -28,8 +28,7 @@ It allows users to:
 
 ### **2️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/kitchensink-springboot.git
-cd kitchensink-springboot
+git clone https://github.com/sumitdeshinge/demoh2
 ```
 
 ### **3️⃣ Backend Setup**
