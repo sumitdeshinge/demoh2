@@ -40,9 +40,9 @@ mvn spring-boot:run
 
 ### **2. API Endpoints**
 ```sh
-List Members: GET http://localhost:8080/members
-Get Member by ID: GET http://localhost:8080/members/{id}
-Add Member: POST http://localhost:8080/members (JSON Body)
+List Members: GET http://localhost:8082/members
+Get Member by ID: GET http://localhost:8082/members/{id}
+Add Member: POST http://localhost:8082/members (JSON Body)
 ```
 
 ### **3. H2 Database Console**
