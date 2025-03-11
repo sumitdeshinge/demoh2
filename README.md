@@ -30,36 +30,50 @@ It allows users to:
 ```sh
 git clone https://github.com/your-repo/kitchensink-springboot.git
 cd kitchensink-springboot
+```
 
-**3️⃣ Backend Setup**
-
+### **3️⃣ Backend Setup**
+```sh
 **1. Build & Run Spring Boot App**
 mvn clean install
 mvn spring-boot:run
+```
 
-**2. API Endpoints**
+### **2. API Endpoints**
+```sh
 List Members: GET http://localhost:8080/members
 Get Member by ID: GET http://localhost:8080/members/{id}
 Add Member: POST http://localhost:8080/members (JSON Body)
+```
 
-**3. H2 Database Console**
+### **3. H2 Database Console**
+```sh
 Open http://localhost:8082/h2-console
 Use JDBC URL: jdbc:h2:mem:testdb
 Username: sa (No password)
+```
 
 
-**4️⃣ Frontend Setup**
+### **4️⃣ Frontend Setup**
 
-**1. Navigate to frontend folder:**
+### **1. Navigate to frontend folder:**
+```sh
 cd frontend
+```
 
-**2. Install dependencies:**
+### **2. Install dependencies:**
+```sh
 npm install
+```
 
-**3. Run React App:**
+### **3. Run React App:**
+```sh
 npm start
+```
 
-**4. Open Browser:**
+### **4. Open Browser:**
+```sh
 http://localhost:3000/ to interact with the system.
+```
 
 
